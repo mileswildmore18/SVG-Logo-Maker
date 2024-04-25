@@ -39,9 +39,9 @@ inquirer
 
     ]
     .then((response) =>
-    console.log([response]`Generated logo.svg`))
+    console.log([response.inquirer]`Generated logo.svg`))
     );
-    
+
 //Creates a function to write a SVG file
 function writeToFile(filename, data) {
 fs.writeFile('logo.svg', data, (error) => {
