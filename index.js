@@ -38,19 +38,19 @@ inquirer
         }
 
     ]
-    .then((response) =>
-    console.log([response.inquirer]`Generated logo.svg`))
+        .then((response) =>
+            console.log([response.inquirer]`Generated logo.svg`))
     );
 
 //Creates a function to write a SVG file
 function writeToFile(filename, data) {
-fs.writeFile('logo.svg', data, (error) => {
-    if(error) throw error;
-})    
+    fs.writeFile('logo.svg', data, (error) => {
+        if (error) throw error;
+    })
 }
 //Creates a function to initialize app
 function init() { }
-    //asks the questions
+//asks the questions
 inquirer.prompt(questions).then((answers) => {
     //passes the answers to the next string
     const string = shapes(answers)
@@ -61,4 +61,4 @@ inquirer.prompt(questions).then((answers) => {
 //Function call to initialize app
 init();
 
-const shapes= require('./lib/shapes');
+const shapes = require('./lib/shapes');
