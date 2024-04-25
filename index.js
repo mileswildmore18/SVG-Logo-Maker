@@ -36,8 +36,12 @@ inquirer
             name: 'fillcolor',
             message: 'What color would you like to use to fill your shape?',
         }
-    ])
 
+    ]
+    .then((response) =>
+    console.log([response]`Generated logo.svg`))
+    );
+    
 //Creates a function to write a SVG file
 function writeToFile(filename, data) {
 fs.writeFile('logo.svg', data, (error) => {
