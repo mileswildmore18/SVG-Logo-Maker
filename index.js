@@ -3,11 +3,9 @@ const { default: inquirer } = require("inquirer");
 const CLI = require("./lib/CLI");
 
 new CLI().run();
-run(); {
-    return inquirer
-    .prompt()
-    .then()
-    .catch()
-}
-
-module.exports = CLI;
+// run(); {
+//     return inquirer
+//     .prompt()
+//     .then()
+//     .catch()
+// }
