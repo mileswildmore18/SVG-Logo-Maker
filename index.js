@@ -66,8 +66,8 @@ function start() {
             myCoolLogo.setText(response.text, response.textColor)
 
             //Creates a new SVG file
-            fs.writeFile('myCoolLogo.svg', myCoolLogo.render(), (err) => {
-                err ? console.error(err) : console.log('Your cool logo is generated!')
+            fs.writeFile('logo.svg', myCoolLogo.render(), (err) => {
+                err ? console.error(err) : console.log('Generated logo.svg')
             })
         });
 }
