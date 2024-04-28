@@ -5,6 +5,7 @@
 Welcome to the SVG Logo Maker, where you can make any of the logos you want based on 3 shapes of your choice! It also comes with what text characters you want based on at least 3 characters, the color of the text, and the color of the shape based on either a circle, triangle or square. You can also give any of the shapes with the characters a test to make sure they pass the test with a jest from node. I learned how to install the recommended npm files and how to test them with the questions I generated for any user to answer as well as give tests to see if the shapes succeed or fail. Below this is a walkthrough video of how the testing of using the Inquirer 8.2.4 version to generate your answers as well as test them using jest.
 
 ## Link to Walkthrough Video
+https://drive.google.com/file/d/1j4SWSWaFCUnySpo7UJl7dfb0FKmH0_tl/view
 
 ## Table of Contents
  * [Description](#description)
