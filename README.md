@@ -48,7 +48,9 @@ npm run test
 
 ## Resources
 Link to a svg viewer: https://www.svgviewer.dev/
+
 Link to npm page : https://www.npmjs.com/
+
 Link to get node.js: https://nodejs.org/
 
 ## Questions
